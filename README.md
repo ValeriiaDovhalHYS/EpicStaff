@@ -1,6 +1,10 @@
 ![EpicStaff Logo](logo.png)
-   
-# EpicStaff: The Open Source Agent Orchestration Framework for Django & Python
+
+   <div align="center">  
+      
+# EpicStaff: enterprise workflow automation & ai agent management platform
+ Open Source Agent Orchestration Framework for Django & Python
+</div>
 
 <a id="readme-top"></a>
 
