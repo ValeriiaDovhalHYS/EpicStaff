@@ -19,14 +19,14 @@
   <a href="https://www.epicstaff.ai">Website</a> •
   <a href="https://github.com/EpicStaff/EpicStaff/wiki">Wiki</a> •
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#key-features">Key Features For AI Engineers</a> •
+  <a href="#key-features">Key Features</a> •
   <a href="https://github.com/EpicStaff/EpicStaff/issues">Report Bug</a>
 </div>
 
   <p align="center">
     <b>Production-Grade Agentic UI for Multi-Agent Orchestration</b>
     <br />
-Build visual-first agentic systems. A drag-and-drop AI workflow builder powered by a high-performance Django backend./ EpicStaff is an Enterprise-ready Agentic UI platform that simplifies multi-agent orchestration by hiding complexity behind a visual workflow builder while maintaining full code control with a FastAPI backend.
+EpicStaff is an Enterprise-ready Agentic UI platform that simplifies multi-agent orchestration by hiding complexity behind a visual workflow builder while maintaining full code control with a Django backend.
      <div align="center">
    
 Our core philosophy: **We hide the complexity, not the logic.**
@@ -44,14 +44,15 @@ Our core philosophy: **We hide the complexity, not the logic.**
     
 ---
 
-## Why EpicStaff?
+## Why did we create EpicStaff?
 
-Most tools force a trade-off: simplicity (No-Code) vs. flexibility (Code-First). **EpicStaff** eliminates this barrier by pioneering the **Agentic UI** space—a hybrid environment where visual clarity meets full Pythonic control.
+Most tools force a trade-off: simplicity (No-Code) vs. flexibility (Code-First). **EpicStaff** eliminates this barrier by providing a **Visual + Code** hybrid environment.
 
-As a production-ready **Visual Agent Orchestrator**, EpicStaff allows developers to build, debug, and scale stateful multi-agent systems without losing control over the underlying code.
+It is a high-performance orchestration platform designed to allow developers to build, deploy, and scale multi-agent systems without losing control over the underlying logic.
 
 * **Visual Logic, Python Core:** Design flows in a drag-and-drop AI workflow editor; inject custom Python logic directly into any node.
 * **Cross-Flow Agent Context:** Built-in persistent agent memory (Redis/PostgreSQL) to retain context across multiple sessions.
+* **Production-Ready Persistence:** Built-in state management for user and organization variables.
 * **Django Multi-Agent Backend:** Powered by Django for robust, low-latency, and production-ready Pythonic agent orchestration.
 
 ---
@@ -82,9 +83,10 @@ git clone -b main [https://github.com/EpicStaff/EpicStaff.git](https://github.co
 git clone -b main [https://github.com/EpicStaff/EpicStaff.git](https://github.com/EpicStaff/EpicStaff.git) && cd EpicStaff && savefiles="$HOME/savefiles" && sed -i "s|CREW_SAVEFILES_PATH=/c/savefiles|CREW_SAVEFILES_PATH=$savefiles|" src/.env && docker volume create sandbox_venvs && docker volume create sandbox_executions && docker volume create crew_pgdata && docker volume create crew_config && docker volume create media_data && docker network create mcp-network && cd src && docker-compose up --build
 ```
 
-### Once running, open http://localhost:4200 to start building.
+Once running, open http://localhost:4200 to start building.
 
-### Alternative Setup Options
+<details>
+<summary>Alternative Setup Options</summary>
 
 EpicStaff can be configured and launched using alternative setup methods:
 
@@ -94,10 +96,16 @@ EpicStaff can be configured and launched using alternative setup methods:
 > These methods are optional and intended for users requiring advanced control over their environment.
 
 **For more [details](https://github.com/EpicStaff/EpicStaff/wiki)**
+</details>
 
 ---
 
-## Key Features For AI Engineers
+## Key Features 
+
+<details>
+<summary>Key features For AI Engineers</summary>
+
+We built a foundation for robust ai agent orchestration and Open Source Agent Orchestration. You can design ai agent orchestration for complex workflows and deploy autonomous AI agents with complete control over the execution logic. The architecture natively supports creating a dependable rag pipeline and managing advanced RAG workflows without external vector database dependencies. For developers exploring the code, we ensure stable execution to prevent the notorious ralph wiggum loop, and you might even spot a ralph wiggum github reference in our test repositories.
 
 | Feature | Technical Description |
 |---|---|
@@ -108,6 +116,25 @@ EpicStaff can be configured and launched using alternative setup methods:
 | Agent Reasoning Trace | Debug multi-agent workflows effortlessly. Native SSE streaming provides a real-time visual trace of how your agent "thinks" and uses tools. |
 | Secure Sandboxing | File system access is restricted (`CONTAINER_SAVEFILES_PATH`). Custom Python tools operate within strict Docker boundaries. |
 | Multi-Model Routing | Seamlessly switch between OpenAI, Anthropic, and local LLMs (Ollama/LocalLLaMA) dynamically within the same workflow. |
+</details>
+
+---
+
+<details>
+<summary>Key Features For Business</summary>
+
+As an ai agent management platform, EpicStaff is engineered to deliver enterprise workflow automation and scalable business process automation. It functions as an Autonomous Agent Builder that acts as a drag and drop automation tool for cross-functional teams. By utilizing sophisticated ai workflow management and built-in ai agent assist, organizations can drastically improve their AI CX (ai customer experience). Being a versatile low code platform, it bridges the gap between technical operations and business strategy.
+
+| Feature | Strategic Business Value |
+|---|---|
+| Natural Language to SQL | Enables business users to instantly retrieve metrics from MySQL and PostgreSQL databases using plain English, removing the dependency on data analysts. |
+| Human Input Control | Maintains human oversight over sensitive operations by pausing workflows for manual review and validation before an agent executes a final decision. |
+| Knowledge Sources & Chat | Automates onboarding and standard inquiries by allowing teams to build real-time conversational agents grounded securely in internal company documents. |
+| Webhook Triggers | Creates continuous automated processes where external events, such as a new CRM entry, instantly trigger an agent to analyze data via HTTP POST payloads. |
+| Persistent Variables | Tracks complex long-term business logic for cross-functional teams, such as managing usage quotas or monitoring funnel stages across multiple workflow runs. |
+| Web Scraping & Image Generation | Scales content creation and research by automatically gathering web data and generating visual assets without requiring additional operational resources. |
+
+</details>
 
 ---
 
