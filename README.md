@@ -2,7 +2,7 @@
 
    <div align="center">  
       
-# EpicStaff: enterprise workflow automation & ai agent management platform
+# EpicStaff: Enterprise Workflow Automation & AI Agent Management Platform
  Open Source Agent Orchestration Framework for Django & Python
 </div>
 
