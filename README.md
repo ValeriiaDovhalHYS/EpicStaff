@@ -26,7 +26,7 @@
   <p align="center">
     <b>Production-Grade Agentic UI for Multi-Agent Orchestration</b>
     <br />
-Build visual-first agentic systems. A drag-and-drop AI workflow builder powered by a high-performance Django backend.
+Build visual-first agentic systems. A drag-and-drop AI workflow builder powered by a high-performance Django backend./ EpicStaff is an Enterprise-ready Agentic UI platform that simplifies multi-agent orchestration by hiding complexity behind a visual workflow builder while maintaining full code control with a FastAPI backend.
      <div align="center">
    
 Our core philosophy: **We hide the complexity, not the logic.**
