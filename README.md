@@ -1,6 +1,6 @@
 ![EpicStaff Logo](logo.png)
    
-# EpicStaff: Open-Source Multi-Agent Orchestration Platform
+# EpicStaff: The Open-Source Agentic UI Framework for Django & Python
 
 <a id="readme-top"></a>
 
@@ -19,25 +19,25 @@
   <a href="https://www.epicstaff.ai">Website</a> •
   <a href="https://github.com/EpicStaff/EpicStaff/wiki">Wiki</a> •
   <a href="#-quick-start">Quick Start</a> •
-  <a href="#key-features">Features</a> •
+  <a href="#key-features">Key Features For AI Engineers</a> •
   <a href="https://github.com/EpicStaff/EpicStaff/issues">Report Bug</a>
 </div>
 
   <p align="center">
-    <b>Open-Source Hybrid AI Agent Orchestrator</b>
+    <b>Production-Grade Agentic UI for Multi-Agent Orchestration</b>
     <br />
-    Bridge the gap between visual workflow builders and pure-code AI frameworks.
+Build visual-first agentic systems. A drag-and-drop AI workflow builder powered by a high-performance Django backend.
      <div align="center">
    
 Our core philosophy: **We hide the complexity, not the logic.**
 
-**⭐ Star us on GitHub to support the project and follow our progress!**
+**⭐ Star us on GitHub to support the Agentic UI movement!**
 </div>
 
 ---
  <p align="center">
     
-## 📺 Watch it in Action
+## 📺 Visual Agent Orchestrator in Action
 
 ![Watch the EpicStaff Demo](https://github.com/EpicStaff/EpicStaff-resources/blob/main/how_to_create_flow.gif?raw=true)
 </div>
@@ -46,19 +46,20 @@ Our core philosophy: **We hide the complexity, not the logic.**
 
 ## Why EpicStaff?
 
-Most tools force a trade-off: simplicity (No-Code) vs. flexibility (Code-First). **EpicStaff** eliminates this barrier by providing a **Visual + Code hybrid environment**.
+Most tools force a trade-off: simplicity (No-Code) vs. flexibility (Code-First). **EpicStaff** eliminates this barrier by pioneering the **Agentic UI** space—a hybrid environment where visual clarity meets full Pythonic control.
 
-It is a high-performance orchestration platform designed to allow developers to build, deploy, and scale multi-agent systems without losing control over the underlying logic.
+As a production-ready **Visual Agent Orchestrator**, EpicStaff allows developers to build, debug, and scale stateful multi-agent systems without losing control over the underlying code.
 
-* **Visual Logic, Python Core:** Design flows in a node-based editor; inject custom Python logic directly into any node.
-* **Production-Ready Persistence:** Built-in state management for user and organization variables.
-* **Solid Backend Foundation:** Powered by **Django** for robust data management and security.
+* **Visual Logic, Python Core:** Design flows in a drag-and-drop AI workflow editor; inject custom Python logic directly into any node.
+* **Cross-Flow Agent Context:** Built-in persistent agent memory (Redis/PostgreSQL) to retain context across multiple sessions.
+* **Django Multi-Agent Backend:** Powered by Django for robust, low-latency, and production-ready Pythonic agent orchestration.
 
 ---
 
 ## ⚡ Quick Start
 
-You don't need to be a technical expert to launch EpicStaff. Follow these two simple steps to get the application running on your computer.
+Deploy self-hosted AI agents in 30 seconds. EpicStaff is designed to run securely on your own infrastructure.
+Follow these two simple steps to get the application running on your computer.
 
 ### Step 1: Get the necessary tools
 Before we start, make sure you have these two applications installed:
@@ -96,25 +97,25 @@ EpicStaff can be configured and launched using alternative setup methods:
 
 ---
 
-## Key Features
+## Key Features For AI Engineers
 
 | Feature | Technical Description |
-| :--- | :--- |
-| **Hybrid Execution Engine** | Combines visual graph traversal (DAG) with direct Python code injection. Code nodes run in isolated Docker containers. |
-| **Dual-Layer Memory** | **Short-term:** Configurable "Window Memory" for conversation context. <br> **Long-term:** Persistent variables stored in PostgreSQL at the User or Organization level. |
-| **Integrated RAG (Knowledge)** | Upload documents, auto-chunk text, and attach vector-based **Knowledge Bases** directly to agents without external DB setup. |
-| **Human Input** | Native **Human-in-the-Loop** capability. Pauses flow execution to wait for operator feedback or approval before proceeding. |
-| **Real-Time Streaming** | Native support for **Server-Sent Events (SSE)**. Stream agent reasoning, tool outputs, and chat responses instantly to the UI. |
-| **Secure Sandboxing** | File system access is restricted to defined volume paths (`CONTAINER_SAVEFILES_PATH`). Custom tools operate within strict boundaries. |
-| **Multi-Model Routing** | Native support for switching between OpenAI, Anthropic, and local LLMs (Ollama/LocalLLaMA) within the same flow. |
+|---|---|
+| Agentic UI Framework | A low-code, drag-and-drop AI workflow builder that combines visual graph traversal (DAG) with isolated Python execution environments. |
+| Persistent Agent Memory | Dual-Layer Memory: Short-term window context + Long-term stateful memory across multiple sessions, stored in PostgreSQL/Redis. |
+| Low-code GraphRAG | Fix RAG hallucinations in agents. Auto-chunk text and attach vector-based knowledge directly to agents without external DB setup. |
+| Human-in-the-Loop UI | Enterprise-grade flow control. Pause multi-agent orchestration to wait for human operator feedback or validation before proceeding. |
+| Agent Reasoning Trace | Debug multi-agent workflows effortlessly. Native SSE streaming provides a real-time visual trace of how your agent "thinks" and uses tools. |
+| Secure Sandboxing | File system access is restricted (`CONTAINER_SAVEFILES_PATH`). Custom Python tools operate within strict Docker boundaries. |
+| Multi-Model Routing | Seamlessly switch between OpenAI, Anthropic, and local LLMs (Ollama/LocalLLaMA) dynamically within the same workflow. |
 
 ---
 
 ## Join Our Community & Shape the Future of EpicStaff
 
-EpicStaff is an open-source project driven by its community. Whether you're a developer, a no-code enthusiast, or a business professional, your feedback and contributions are what make this project grow.
+EpicStaff is an open-source project driven by its community. Whether you want to build custom Python tools, improve the FastAPI backend, or design new Agentic UI components, your contributions matter!
 
-* **⭐ Star the Repository:** The easiest way to show your support and stay updated.
+* **⭐ Star the Repository:** Support the Agentic UI movement.
 * **💬 Connect on Reddit:** For real-time chat with the community and the core team, join our [Reddit Community](https://www.reddit.com/r/EpicStaff_AI/). 
 * **🤝 Contribute:** Found a bug or want to add a new tool? Check out our [CONTRIBUTING.md](CONTRIBUTING.md) to get started. We welcome all contributors!
 
@@ -122,9 +123,9 @@ EpicStaff is an open-source project driven by its community. Whether you're a de
 
 ## 🙏 Special Thanks
 
-Our platform leverages the innovative work of the open-source community. A special thank you goes out to **[Foblex](https://github.com/Foblex)** for their collaboration and fantastic contributions.
+Our visual-first agentic system leverages the innovative work of the open-source community. A special thank you to **[Foblex](https://github.com/Foblex)**
 
-* We proudly use the **[f-flow library](https://github.com/Foblex/f-flow)** which is a core part of our architecture.
+* We proudly use the **[f-flow library](https://github.com/Foblex/f-flow)** as the core interactive engine for our Agentic UI.
 * Foblex helps us spread the word by featuring EpicStaff in his articles and educational materials. You can check out his work at **[flow.foblex.com](https://flow.foblex.com/)**.
 
 We believe in the power of collaboration and are grateful for such a great partnership.
