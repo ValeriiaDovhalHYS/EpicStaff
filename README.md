@@ -1,6 +1,6 @@
 ![EpicStaff Logo](logo.png)
    
-# EpicStaff: The Open-Source Agentic UI Framework for Django & Python
+# EpicStaff: The Open Source Agent Orchestration Framework for Django & Python
 
 <a id="readme-top"></a>
 
