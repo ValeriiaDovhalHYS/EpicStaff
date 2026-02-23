@@ -131,12 +131,14 @@ As an ai agent management platform, EpicStaff is engineered to deliver enterpris
 
 | Feature | Strategic Business Value |
 |---|---|
-| Natural Language to SQL | Enables business users to instantly retrieve metrics from MySQL and PostgreSQL databases using plain English, removing the dependency on data analysts. |
-| Human Input Control | Maintains human oversight over sensitive operations by pausing workflows for manual review and validation before an agent executes a final decision. |
-| Knowledge Sources & Chat | Automates onboarding and standard inquiries by allowing teams to build real-time conversational agents grounded securely in internal company documents. |
-| Webhook Triggers | Creates continuous automated processes where external events, such as a new CRM entry, instantly trigger an agent to analyze data via HTTP POST payloads. |
-| Persistent Variables | Tracks complex long-term business logic for cross-functional teams, such as managing usage quotas or monitoring funnel stages across multiple workflow runs. |
+| Visual Workflow Builder | A low-code, drag-and-drop interface, automate any process without any deep tech knowledge. You can build, validate, and visually debug multi-step workflows using our pre-built node library. |
+| Multi-Agent Collaboration| Build a digital crew. Let multiple AI agents work together to automate entire departments, decreasing operational costs and saving time. |
+| Enterprise Security | Secure your organization with access controls. Create custom roles and assign specific permissions to safely manage your organisation's workflows and data. |
+| Custom Python Tools | Build exactly what you need. Write custom logic in Python to easily connect with any external API or service, giving your business unlimited automation capabilities. | 
 | Web Scraping & Image Generation | Scales content creation and research by automatically gathering web data and generating visual assets without requiring additional operational resources. |
+| Webhook Triggers | Set up the agent workflow to respond to external events, like new emails, changes in CRM, or webhooks. It'll automatically start a chat with the customer, update the database, generate a report. |
+| Voice Agent Capabilities | Control workflows with your voice. Speak naturally to your agents in multiple languages for completely hands-free automation. |
+|Human Input Control| Maintains human oversight over sensitive operations by pausing workflows for manual review and validation before an agent executes a final decision.
 
 </details>
 
