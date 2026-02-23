@@ -144,7 +144,7 @@ As an ai agent management platform, EpicStaff is engineered to deliver enterpris
 
 ## Join Our Community & Shape the Future of EpicStaff
 
-EpicStaff is an open-source project driven by its community. Whether you want to build custom Python tools, improve the FastAPI backend, or design new Agentic UI components, your contributions matter!
+EpicStaff is an open-source project driven by its community. Whether you want to build custom Python tools, improve the Django backend, or design new Agentic UI components, your contributions matter!
 
 * **⭐ Star the Repository:** Support the Agentic UI movement.
 * **💬 Connect on Reddit:** For real-time chat with the community and the core team, join our [Reddit Community](https://www.reddit.com/r/EpicStaff_AI/). 
