@@ -41,7 +41,7 @@ Our core philosophy: **We hide the complexity, not the logic.**
 ---
  <p align="center">
     
-## 📺 Visual Agent Orchestrator in Action
+## Visual Agent Orchestrator in Action
 
 ![Watch the EpicStaff Demo](https://github.com/EpicStaff/EpicStaff-resources/blob/main/how_to_create_flow.gif?raw=true)
 </div>
