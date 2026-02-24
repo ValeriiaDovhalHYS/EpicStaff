@@ -113,13 +113,14 @@ We built a foundation for robust ai agent orchestration and Open Source Agent Or
 
 | Feature | Technical Description |
 |---|---|
-| Agentic UI Framework | A low-code, drag-and-drop AI workflow builder that combines visual graph traversal (DAG) with isolated Python execution environments. |
-| Persistent Agent Memory | Dual-Layer Memory: Short-term window context + Long-term stateful memory across multiple sessions, stored in PostgreSQL/Redis. |
-| Low-code GraphRAG | Fix RAG hallucinations in agents. Auto-chunk text and attach vector-based knowledge directly to agents without external DB setup. |
-| Human-in-the-Loop UI | Enterprise-grade flow control. Pause multi-agent orchestration to wait for human operator feedback or validation before proceeding. |
-| Agent Reasoning Trace | Debug multi-agent workflows effortlessly. Native SSE streaming provides a real-time visual trace of how your agent "thinks" and uses tools. |
-| Secure Sandboxing | File system access is restricted (`CONTAINER_SAVEFILES_PATH`). Custom Python tools operate within strict Docker boundaries. |
-| Multi-Model Routing | Seamlessly switch between OpenAI, Anthropic, and local LLMs (Ollama/LocalLLaMA) dynamically within the same workflow. |
+| Node UI | Construct complex workflows using a node-based architecture. Design execution graphs with various specialized nodes to define exact logic paths. |
+| LLM & Embedder Providers | Native support for switching between major providers like OpenAI and Anthropic, or integrate your own custom local LLMs and embedding models. |
+| Retrieval-Augmented Generation (RAG) | Upload documents, create knowledge collections and customize index parameters directly in the UI. Index data using strategies like Naive Vector Search or GraphRAG to enhance agent context. |
+| Custom Tools | Write custom Python functions that agents can invoke dynamically. Build your own integrations, and the orchestration engine will automatically evaluate and use them during execution. |
+| Code Execution | Inject and run Python code within nodes. Read, modify, and manipulate flow variables dynamically to handle custom logic during workflow traversal. |
+| Flow Messages | Debug flow execution seamlessly. Read detailed, structured state messages and execution logs for each specific node in real-time. |
+| Webhooks | Trigger flow executions programmatically. Initiate workflows via HTTP POST payloads from any external system, application, or custom source. |
+| Persistent Agent Memory | Dual-Layer Memory: Short-term window context combined with long-term stateful memory across multiple sessions, stored in PostgreSQL (with pgvector) and Redis. |
 </details>
 
 ---
