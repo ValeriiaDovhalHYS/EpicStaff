@@ -1,4 +1,4 @@
-![EpicStaff Logo](logo.png)
+![EpicStaff Logo](LOGO_ver2.png)
 
    <div align="center">  
       
